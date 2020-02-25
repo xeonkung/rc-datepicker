@@ -46,7 +46,8 @@ export const Props = {
   iconClearClassName: t.maybe(t.String),
   className: t.maybe(t.String), // used to omit from inputProps
   style: t.maybe(t.Object), // used to omit from inputProps
-  placeholder: t.maybe(t.String)
+  placeholder: t.maybe(t.String),
+  useBe: t.maybe(t.Boolean)
 };
 
 /** A decent and pretty date picker to be used with React
